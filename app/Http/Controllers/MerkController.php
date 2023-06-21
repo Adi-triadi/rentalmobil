@@ -47,6 +47,6 @@ class MerkController extends Controller
         $merkData = Merk::find($id);
         $merkData->delete();
         
-        return redirect()->to('/merk')->with('succuess', 'data berhasil dihaous');
+        return redirect()->to('/merk')->with('succuess', 'data berhasil dihapus');
     }
 }
